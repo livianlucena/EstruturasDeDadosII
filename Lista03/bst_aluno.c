@@ -81,10 +81,10 @@ int main() {
     Aluno* raiz = NULL;  // Inicializa árvore vazia
 
     // Inserção de alguns alunos
-    raiz = inserirAluno(raiz, "Jordan", 1000, 10.5);
+    raiz = inserirAluno(raiz, "Jordan", 1000, 10.0);
     raiz = inserirAluno(raiz, "Lívian", 1001, 8.0);
     raiz = inserirAluno(raiz, "Izadora", 1002, 8.5);
-    raiz = inserirAluno(raiz, "Hellen", 1003, 7.0);
+    raiz = inserirAluno(raiz, "Hellen", 1003, 8.5);
 
     // Calcula e imprime a média das notas
     float media = mediaNotas(raiz);
